@@ -1,4 +1,4 @@
-package com.ERTeixeira.quadra_service.model;
+package com.ERTeixeira.quadra_service.application.model;
 
 public enum TipoQuadra {
     Areia,
