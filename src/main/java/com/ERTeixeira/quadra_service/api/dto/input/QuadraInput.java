@@ -6,18 +6,18 @@ import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Size;
 
 public record QuadraInput(
-        @NotBlank(message = "é obrigatório")
-        @Size(max = 255, message = "deve ter no máximo 255 caracteres")
+        @NotBlank(message = "É obrigatório")
+        @Size(max = 255, message = "Deve ter no máximo 255 caracteres")
         String nome,
 
-        @NotNull(message = "é obrigatório")
+        @NotNull(message = "É obrigatório")
         Boolean disponibilidade,
 
-        @NotBlank(message = "é obrigatório")
-        @Size(max = 255, message = "deve ter no máximo 255 caracteres")
+        @NotBlank(message = "É obrigatório")
+        @Size(max = 255, message = "Deve ter no máximo 255 caracteres")
         String local,
 
-        @NotNull(message = "é obrigatório")
+        @NotNull(message = "É obrigatório")
         TipoQuadra tipo
 ) {
 }
